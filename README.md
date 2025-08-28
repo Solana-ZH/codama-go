@@ -1,4 +1,4 @@
-# Copyma
+# Codama-Go
 
 _Solana Go Client Generator, Powered by Codama_
 
@@ -9,7 +9,7 @@ This tool is in beta, so please report any issues or feedback.
 ## Installation
 
 ```sh
-pnpm install cogoma
+pnpm install codama-go
 ```
 
 
@@ -20,7 +20,7 @@ Once you have a Codama IDL, you can use the `renderVisitor` of this package to g
 
 ```ts
 // node ./codama.mjs
-import { renderVisitor } from 'cogoma';
+import { renderVisitor } from 'codama-go';
 
 const pathToGeneratedFolder = path.join(__dirname, 'clients', 'go', 'src', 'generated');
 const options = {}; // See below.

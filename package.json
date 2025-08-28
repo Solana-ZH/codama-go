@@ -1,5 +1,5 @@
 {
-  "name": "cogoma",
+  "name": "codama-go",
   "version": "0.1.1-beta",
   "description": "Python renderer compatible with the Solana Kit library",
   "main": "./dist/index.node.cjs",
